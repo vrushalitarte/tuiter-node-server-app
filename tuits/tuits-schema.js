@@ -5,5 +5,7 @@ const schema = mongoose.Schema({
     liked: Boolean,
     dislikes: Number,
     disliked: Boolean,
+    retuits: Number,
+    replies: Number,
 }, {collection: 'tuits'});
 export default schema;
